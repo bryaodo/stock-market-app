@@ -13,7 +13,7 @@ Next, we need to install any dependencies or libraries our source code might nee
 
 In your chosen terminal, navigate to the project folder titled `stock-app` using the `cd` command. It should look something like this: 
 
-![image](https://user-images.githubusercontent.com/128628571/231878416-c2390195-f0c8-4ad2-9f46-0d2677556a22.png)
+![image](https://user-images.githubusercontent.com/128628571/231884628-e8031c1d-697d-45e6-9459-6178225f084c.png)
 
 After you are in the directory that contains the package.json file, run the command npm install on the command line. This will install all required dependencies for running the project.
 
