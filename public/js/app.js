@@ -45,9 +45,15 @@ stockForm.addEventListener('submit', (e) => {
             }
             else {
                 console.log(data)
+                if (data.addressLine === "N/A") { 
+                    loadMessage.textContent = 'Closing price for ' + data.companyName + ' (' + data.ticker + ') is ' + data.closingPrice + '. '
+                displayMessage.textContent = '(Since ' + data.ticker + ' is not a common stock, some details such as address information may be missing.)'
+                }
+                else { 
                 loadMessage.textContent = 'Closing price for ' + data.companyName + ' (' + data.ticker + ') is ' + data.closingPrice + '. ' + data.companyName + ' is headquartered in ' + data.city + 
                 ', ' + data.state + '.\n'
                 displayMessage.textContent = 'Company Address:\n' + data.companyName + '\n' + data.addressLine + '\n' + data.city + ', ' + data.state + ' ' + data.zip 
+                }
                 
 
             }

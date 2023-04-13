@@ -5,19 +5,29 @@ var capitalize = require('capitalize')
 const stockAddress = (symbol, callback) => {
     const urlV3 = 'https://api.polygon.io/v3/reference/tickers/' + symbol + '?apiKey=[API_KEY]'
     request({url: urlV3, json: true }, (error, { body }) => {
-            callback(undefined, {   
+        if (body.results.type !== "CS") {
+            callback(undefined ,{   
                 companyName: body.results.name,
-                addressLine: capitalize.words(body.results.address.address1), 
-                city: capitalize.words(body.results.address.city),
-                state: body.results.address.state,
-                zip: body.results.address.postal_code})
+                addressLine: "N/A", 
+                city: "",
+                state: "",
+                zip: ""})
+        }
+        else {
+        callback(undefined, {   
+            companyName: body.results.name,
+            addressLine: capitalize.words(body.results.address.address1), 
+            city: capitalize.words(body.results.address.city),
+            state: body.results.address.state,
+            zip: body.results.address.postal_code})
+        }
             
     })
 } 
 
 const stock = (symbol, callback) => {
     symbol = symbol.toUpperCase()
-    const url = 'https://api.polygon.io/v2/aggs/ticker/' + symbol + '/prev?adjusted=true&sort=asc&limit=120&apiKey=[API _KEY]'
+    const url = 'https://api.polygon.io/v2/aggs/ticker/' + symbol + '/prev?adjusted=true&sort=asc&limit=120&apiKey=[API_KEY]'
 
     //const urlV3 = 'https://api.polygon.io/v3/reference/tickers/AAPL?apiKey=ivMUUwvOd4umrgB5BBdHezHs_a63povv'
     request({url: url, json: true }, (error, { body }) => {
