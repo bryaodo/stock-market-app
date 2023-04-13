@@ -42,7 +42,7 @@ After you've saved the files`stocks.js`, you are now finished with setting up th
 ## Running The Application
 To start the application, head back to the command line and navigate to the stock-app folder. Run the command `node ./src/app.js` and press enter. If the app runs successfully, you should see a message like the one below: 
 
-![image](https://user-images.githubusercontent.com/128628571/231878657-774f2c5b-03ec-4baf-9402-ce3438bc753b.png)
+![image](https://user-images.githubusercontent.com/128628571/231885906-4757c24a-9523-4aaf-9d3a-bc6cff3472f9.png)
 
 If there is an error, it is possible you have another application running on port 3002, which means you either need to close the existing application that is currently running on port 3002.
 
