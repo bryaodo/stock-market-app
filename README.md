@@ -68,6 +68,7 @@ From the main page, you can use the tabs located below the title named “Our re
 
 ![image](https://user-images.githubusercontent.com/128628571/231878988-a75fdcc1-0a9e-40b0-bfd7-fbd9a57f9d25.png)
 
+
 #notFinancialAdvice
 
 This shows the stock developer’s stock pick and why they picked it. 
@@ -78,27 +79,27 @@ If you’d like to leave some feedback about the application, or the developer�
 
 ![image](https://user-images.githubusercontent.com/128628571/231881553-1b09b258-5584-4467-bc9d-e0188f5eafb3.png)
 
-And, if you aren't a computer, be sure to hit the button below the binary to translate the text into english!
+And, if you aren't a computer, be sure to hit the button below the binary to translate the text into English!
 
  ![image](https://user-images.githubusercontent.com/128628571/231881739-3f5e3354-aeb1-443c-98c1-01eeb5b3ba0d.png)
 
 # Closing the program
-If you want to close the program, navigate back to your terminal window and type in ctrl + C to end the program. 
+If you want to close the program, navigate back to your terminal window and type in `ctrl + C` to end the program. 
 
-![image](https://user-images.githubusercontent.com/128628571/231879075-b77356df-73b6-4560-841a-252a8cdfcaec.png)
+![image](https://user-images.githubusercontent.com/128628571/231886674-8e7097e9-bd1d-4d37-83f6-c6af91c19e57.png)
 
 Before `ctrl + C`
 
-![image](https://user-images.githubusercontent.com/128628571/231879093-de4b9294-11ba-460c-8bf4-bec3fd98776f.png)
+![image](https://user-images.githubusercontent.com/128628571/231886716-57ddaefa-d5fa-4a59-b94d-495701f13a82.png)
 
 After `ctrl + C`
  
 
-You should see the your directory path returns, and upon refreshing the webpage in your browser, you will get an error saying that the web page cannot be reached (browser dependent)
+You should see the your directory path returns, and upon refreshing the webpage in your browser, you will get an error saying that the web page cannot be reached (the error displayed will browser dependent).
 
 ![image](https://user-images.githubusercontent.com/128628571/231879144-4aab17e0-a2c2-4b06-85de-2e3cc25b9f2d.png)
 
 This means that the program is no longer using a port on your computer and you are free to close any terminal or browser windows.
 
 # Support
-If you have any questions, comments, or feedback on the program, please reach out via email at (bryan.odonoghue@cdw.com).
+If you have any questions, comments, or feedback on the application, please reach out via email at (bryan.odonoghue@cdw.com).
