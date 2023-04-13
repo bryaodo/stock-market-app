@@ -34,13 +34,13 @@ From here, click “Add API key” and a key will populate:
 
 Use the copy button to copy the key, and navigate back to your chosen code editor. Open the file `stocks.js` which is located in the `src` folder, and find the bracketed areas on line 6 and 20 and replace them with your api key.
 
-![image](https://user-images.githubusercontent.com/128628571/231878601-fe240c04-70ea-45c9-9131-712626a6cb5a.png)
+![image](https://user-images.githubusercontent.com/128628571/231885234-8e407273-0e11-40ed-a225-7b9409453407.png)
 
-You are now finished with setting up the application!
+After you've saved the files`stocks.js`, you are now finished with setting up the application!
 
 # Starting the Page
 ## Running The Application
-To start the application, head back to the command line and navigate to the stock-app folder. Run the command node ./src/app.js and press enter. If the app runs successfully, you should see a message like the one below: 
+To start the application, head back to the command line and navigate to the stock-app folder. Run the command `node ./src/app.js` and press enter. If the app runs successfully, you should see a message like the one below: 
 
 ![image](https://user-images.githubusercontent.com/128628571/231878657-774f2c5b-03ec-4baf-9402-ce3438bc753b.png)
 
