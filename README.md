@@ -13,7 +13,7 @@ If you aren't as familiar with setting up a GitHub repository, feel free to down
 ## Installing dependencies
 Next, we need to install any dependencies or libraries our source code might need in order to run our application. 
 
-In your chosen terminal, navigate to the project folder titled stock-app using the cd command. It should look something like this: 
+In your chosen terminal, navigate to the project folder titled `stock-app` using the `cd` command. It should look something like this: 
 
 
 After you are in the directory that contains the package.json file, run the command npm install on the command line. This will install all required dependencies for running the project.
@@ -30,7 +30,7 @@ Then, use the left-hand navigation bar to navigate to the api key section
 From here, click “Add API key” and a key will populate:
 
 
-Use the copy button to copy the key, and navigate back to your chosen code editor. Open the file stocks.js which is located in the /src/ folder, and find the bracketed areas on line 6 and 20 and replace them with your api key.
+Use the copy button to copy the key, and navigate back to your chosen code editor. Open the file `stocks.js` which is located in the `/src/` folder, and find the bracketed areas on line 6 and 20 and replace them with your api key.
 
 
 You are now finished with setting up the application!
@@ -73,14 +73,12 @@ If you’d like to leave some feedback about the application, or the developer�
 If you want to close the program, navigate back to your terminal window and type in ctrl + C to end the program. 
 
 
-Before ctrl + C
+Before `ctrl + C`
 
-After ctrl + C
+After `ctrl + C`
  
 
 You should see the your directory path returns, and upon refreshing the webpage in your browser, you will get an error saying that the web page cannot be reached (browser dependent)
-
- 
 
 
 This means that the program is no longer using a port on your computer and you are free to close any terminal or browser windows.
