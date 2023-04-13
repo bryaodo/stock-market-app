@@ -49,7 +49,7 @@ If there is an error, it is possible you have another application running on por
 ### Director's commentary - this code was written before I learned about process.env variables or customization, so changing the port is not reflected in this project
 
 ## Accessing the application
-To access the application, ensure that you’ve received the message “server is up on port 3002” and keep the terminal window open. Then, navigate to your web browser of choice and type in “(http://localhost:3002/)”. You should see the main page of the stock window, like so:
+To access the application, ensure that you’ve received the message “server is up on port 3002” and keep the terminal window open. Then, navigate to your web browser of choice and type in http://localhost:3002/. You should see the main page of the stock window, like so:
 
 ![image](https://user-images.githubusercontent.com/128628571/231878816-8bc3beb1-aa5f-4c09-8717-92651bc95e6c.png)
 
