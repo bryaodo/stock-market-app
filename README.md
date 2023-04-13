@@ -32,7 +32,7 @@ From here, click “Add API key” and a key will populate:
 
 ![image](https://user-images.githubusercontent.com/128628571/231878556-f89ff95f-25da-4752-99fb-0b1e444f82bb.png)
 
-Use the copy button to copy the key, and navigate back to your chosen code editor. Open the file `stocks.js` which is located in the `src` folder, and find the bracketed areas on line 6 and 20 and replace them with your api key.
+Use the copy button to copy the key, and navigate back to your chosen code editor. Open the file `stocks.js` which is located in the `src` folder, and find the bracketed areas on line 6 and 30 and replace them with your api key.
 
 ![image](https://user-images.githubusercontent.com/128628571/231885234-8e407273-0e11-40ed-a225-7b9409453407.png)
 
