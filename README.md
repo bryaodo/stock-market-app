@@ -56,7 +56,7 @@ To access the application, ensure that you’ve received the message “server i
 You’re now ready to start using the stock market application!
 
 # Features
-##Stocks Page
+## Stocks Page
 This is the main feature of the application, which allows you to search for any stock you would like using the ticker. You can enter the ticker in the search box and press search to get information about the stock. The search function is not case sensitive, so feel free to enter the ticker in upper case or lower case.
 
 ![image](https://user-images.githubusercontent.com/128628571/231878878-80d00f64-47e1-4417-8294-440d8567d717.png)
@@ -67,6 +67,7 @@ The application will then give you information about the closing price of the st
 From the main page, you can use the tabs located below the title named “Our recommendations” in order to access this page. You can also access the page [here](http://localhost:3002/recommendations)
 
 ![image](https://user-images.githubusercontent.com/128628571/231878988-a75fdcc1-0a9e-40b0-bfd7-fbd9a57f9d25.png)
+
 #notFinancialAdvice
 
 This shows the stock developer’s stock pick and why they picked it. 
