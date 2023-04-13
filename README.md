@@ -2,7 +2,7 @@
 
 # Installation
 ## Source Code
-First, you’ll want to obtain the source code that runs the project, which can be found here.  Click on the green dropdown and you’ll be presented with options for how to clone the repository and get the code to your machine.
+First, you’ll want to obtain the source code that runs the project, which can be found [here](https://github.com/bryaodo/stock-market-app).  Click on the green dropdown and you’ll be presented with options for how to clone the repository and get the code to your machine.
 
 ![image](https://user-images.githubusercontent.com/128628571/231878149-fd5e00f3-4c73-41a9-94d8-2821bd16427c.png)
 
@@ -18,9 +18,9 @@ In your chosen terminal, navigate to the project folder titled `stock-app` using
 After you are in the directory that contains the package.json file, run the command npm install on the command line. This will install all required dependencies for running the project.
 
 ## API Keys
-The last thing you will need in order to get the application running is an API key. You’ll need to get an api key from Polygon.io and change the current API key placeholder in the code in order to get the application running. 
+The last thing you will need in order to get the application running is an API key. You’ll need to get an api key from (Polygon.io) and change the current API key placeholder in the code in order to get the application running. 
 
-First, go to Polygon.io and create a new account to get an API key:
+First, go to (Polygon.io) and create a new account to get an API key:
 
 ![image](https://user-images.githubusercontent.com/128628571/231878444-429e2709-5580-4098-8ae5-eb532d43a5e8.png)
 
@@ -44,12 +44,12 @@ To start the application, head back to the command line and navigate to the stoc
 
 ![image](https://user-images.githubusercontent.com/128628571/231878657-774f2c5b-03ec-4baf-9402-ce3438bc753b.png)
 
-If there is an error, it is possible you have another application running on port 3002, which means you either need to close the existing application, or change the port number that the stock application runs on. 
+If there is an error, it is possible you have another application running on port 3002, which means you either need to close the existing application that is currently running on port 3002.
 
-To do this [insert guide here, I’d like to go back and change the app so that it uses process variables, making it so if a user needs to make a change they only have to do it in one, easy to reach spot. could do this for API key as well]
+### Director's commentary - this code was written before I learned about process.env variables or customization, so changing the port is not reflected in this project
 
 ## Accessing the application
-To access the application, ensure that you’ve received the message “server is up on port [port number]” and keep the terminal window open. Then, navigate to your web browser of choice and type in “http://localhost:3002/”, replacing the  “3002” with what ever port number is displayed in your terminal window. You should see the main page of the stock window, like so:
+To access the application, ensure that you’ve received the message “server is up on port 3002” and keep the terminal window open. Then, navigate to your web browser of choice and type in “(http://localhost:3002/)”. You should see the main page of the stock window, like so:
 
 ![image](https://user-images.githubusercontent.com/128628571/231878816-8bc3beb1-aa5f-4c09-8717-92651bc95e6c.png)
 
@@ -64,17 +64,22 @@ This is the main feature of the application, which allows you to search for any 
 The application will then give you information about the closing price of the stock and company information, including headquarters address.
 
 ## Recommendations Page
-From the main page, you can use the tabs located below the title named “Our recommendations” in order to access this page. You can also use this url to access the page: http://localhost:3002/recommendations
+From the main page, you can use the tabs located below the title named “Our recommendations” in order to access this page. You can also access the page [here](http://localhost:3002/recommendations)
 
 ![image](https://user-images.githubusercontent.com/128628571/231878988-a75fdcc1-0a9e-40b0-bfd7-fbd9a57f9d25.png)
+#notFinancialAdvice
 
 This shows the stock developer’s stock pick and why they picked it. 
 
 ## Contact Us Page
-If you’d like to leave some feedback about the application, or the developer’s stock recommendations, navigate to the Contact Us page to get detailed contact information about the developer!
 
+If you’d like to leave some feedback about the application, or the developer’s stock recommendations, navigate to the [Contact Us page](http://localhost:3002/contact) to get detailed contact information about the developer!
 
- 
+![image](https://user-images.githubusercontent.com/128628571/231881553-1b09b258-5584-4467-bc9d-e0188f5eafb3.png)
+
+And, if you aren't a computer, be sure to hit the button below the binary to translate the text into english!
+
+ ![image](https://user-images.githubusercontent.com/128628571/231881739-3f5e3354-aeb1-443c-98c1-01eeb5b3ba0d.png)
 
 # Closing the program
 If you want to close the program, navigate back to your terminal window and type in ctrl + C to end the program. 
