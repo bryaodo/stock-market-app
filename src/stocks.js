@@ -29,7 +29,6 @@ const stock = (symbol, callback) => {
     symbol = symbol.toUpperCase()
     const url = 'https://api.polygon.io/v2/aggs/ticker/' + symbol + '/prev?adjusted=true&sort=asc&limit=120&apiKey=[API_KEY]'
 
-    //const urlV3 = 'https://api.polygon.io/v3/reference/tickers/AAPL?apiKey=ivMUUwvOd4umrgB5BBdHezHs_a63povv'
     request({url: url, json: true }, (error, { body }) => {
         if (error) {
             callback('Cant connect to stock service. Please try again later', undefined)
