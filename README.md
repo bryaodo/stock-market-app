@@ -85,9 +85,11 @@ And, if you aren't a computer, be sure to hit the button below the binary to tra
 If you want to close the program, navigate back to your terminal window and type in ctrl + C to end the program. 
 
 ![image](https://user-images.githubusercontent.com/128628571/231879075-b77356df-73b6-4560-841a-252a8cdfcaec.png)
+
 Before `ctrl + C`
 
 ![image](https://user-images.githubusercontent.com/128628571/231879093-de4b9294-11ba-460c-8bf4-bec3fd98776f.png)
+
 After `ctrl + C`
  
 
