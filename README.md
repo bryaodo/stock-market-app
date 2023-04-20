@@ -26,7 +26,7 @@ In your chosen terminal, navigate to the project folder titled `stock-app` using
 After you are in the directory that contains the package.json file, run the command `npm install` on the command line. This will install all required dependencies for running the project.
 
 ## API Keys
-The last thing you will need in order to get the application running is an API key. You’ll need to get an api key from [Polygon.io](Polygon.io) and change the current API key placeholder in the code in order to get the application running. 
+The last thing you will need in order to get the application running is an API key. You’ll need to get an api key from (Polygon.io) and change the current API key placeholder in the code in order to get the application running. 
 
 First, go to [Polygon.io](Polygon.io) and create a new account to get an API key:
 
