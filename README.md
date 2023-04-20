@@ -4,7 +4,7 @@
 This project is a basic webpage that allows users to search for stock information using a simple front-end interface hosted locally. Complete with recommendation and contact pages, it provides a great basis for users to use directly or customize and make their own. Below contains installation and usage instructions for the project. 
 
 ## Prerequisites
-- A terminal/code editor (I prefer to use an IDE like [Visual Studio Code](https://code.visualstudio.com/)
+- A terminal/code editor ([Visual Studio Code](https://code.visualstudio.com/) is my code editor of choice)
 - [Node.js](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 - An email address for API signup
 
