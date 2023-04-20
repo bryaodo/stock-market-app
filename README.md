@@ -1,4 +1,8 @@
 ﻿# stock-market-app
+ 
+This project is a basic webpage that allows users to search for stock information using a simple front-end interface hosted locally. Complete with recommendation and contact pages, it provides a great basis for users to use directly or customize and make their own. Below contains installation and usage instructions for the project. 
+
+If you have any questions, feel free to reach out via email at (bryan.odonoghue@cdw.com)!
 
 # Installation
 ## Source Code
