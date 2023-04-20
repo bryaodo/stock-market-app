@@ -52,7 +52,7 @@ To start the application, head back to the command line and navigate to the stoc
 
 ![image](https://user-images.githubusercontent.com/128628571/231885906-4757c24a-9523-4aaf-9d3a-bc6cff3472f9.png)
 
-If there is an error, it is possible you have another application running on port 3002, which means you either need to close the existing application that is currently running on port 3002.
+If there is an error, it is possible you have another application running on port 3002, which means you may need to close the existing application that is currently running on port 3002.
 
 ### Director's commentary - this code was written before I learned about process.env variables or customization, so changing the port is not reflected in this project
 
